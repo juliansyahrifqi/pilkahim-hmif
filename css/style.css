@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,600;1,500&display=swap');
+
+.btn-login {
+    border: 2px solid #C6CB72;
+    padding: 5px 41px;
+    border-radius: 35px;
+    background: #1C42CA;
+}
+nav {
+    font-family: 'Kanit', sans-serif;
+    background: #1C42CA;
+}
+.active a {
+    color : #EAEC8B !important;
+    font-weight: 600 !important; 
+}
+.hero {
+    background:url("../assets/images/hero.svg");
+    height: 150vh;
+    font-family: 'Kanit', sans-serif;
+}
+.hero-title {
+    font-weight: 500;
+}
+.hero-description {
+    font-weight: 400;
+}
+.btn-hero {
+    padding: 5px 20px;
+    border-radius: 35px;
+}
+.btn-kandidat {
+    border: 1px solid #FFFFFF;
+    background: #1C42CA;
+}
+.btn-voting {
+    border: 1px solid #C6CB72;
+    background: #C6CB72;
+}
+.register {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+}
+.btn-register {
+    padding: 5px 42px;
+    background: #1C42CA;
+    border-radius: 35px;
+    border: none;
+}
+.round {
+    background: #6C63FF;
+}
+.howto-vote {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+}
+footer {
+    background:url("../assets/images/footer.svg") no-repeat top;
+    height: 100%;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+}
+.footer-content {
+    margin-top: 28%;
+}
+.paslon img {
+    width: 100%;
+}
+.kandidat-img {
+    width: 60%;
+    height: 50%;
+}
