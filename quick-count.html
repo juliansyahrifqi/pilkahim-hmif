@@ -23,87 +23,107 @@
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
+                <li class="nav-item mr-4">
+                  <a class="nav-link text-white" href="index.html">Home</a>
+                </li>
                 <li class="nav-item active mr-4">
-                  <a class="nav-link text-active" href="#">Home</a>
+                  <a class="nav-link" href="quick-count.html">Quick Count</a>
                 </li>
                 <li class="nav-item mr-4">
-                  <a class="nav-link text-white" href="#">Quick Count</a>
+                    <a class="nav-link text-white" href="kandidat.html">Kandidat</a>
                 </li>
                 <li class="nav-item mr-4">
-                    <a class="nav-link text-white" href="#">Kandidat</a>
-                </li>
-                <li class="nav-item mr-4">
-                    <a class="nav-link text-white" href="#">Voting</a>
+                    <a class="nav-link text-white" href="voting.html">Voting</a>
                 </li>
                 <button class="btn-login text-white">
                     Login
                 </button>
+            
               </ul>
             </div>
         </div>
-    </nav>
-    <!-- End of navbar -->
+      </nav>
+      <!-- End of navbar -->
 
     <div class="quick-count">
         <div class="container mt-5 text-center">
             <h1>Hasil Voting Sementara</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id sed id amet senectus.</p>
         
-            <div class="row mt-5">
-                <div class="col-sm">
-                    <div class="card text-center">
-                        <div class="d-flex justify-content-around">
-                            <div class="paslon">
-                                <img class="img-kandidat img-fluid" src="./assets/images/kandidat.png" alt="">
-                                <h4>Saeful Apriana</h4>
-                                <p>Divisi Kominfo</p>
+            <div class="row my-5 pb-5">
+                <div class="col-sm mt-3">
+                    <div class="card card-paslon text-center">
+                        <div class="card-header card-paslon-header">
+                            <h1>1</h1>
+                        </div>
+                        <div class="d-flex justify-content-around px-3">
+                            <div class="paslon mt-5">
+                                <img class="img-fluid" src="./assets/images/kandidat.png" alt="Kandidat 1">
+                                
+                                <div class="paslon-description mt-5">
+                                    <h5>Saeful Apriana</h4>
+                                    <p>Divisi Kominfo</p>
+                                </div>
                             </div>
 
-                            <div class="paslon">
-                                <img class="img-kandidat img-fluid" src="./assets/images/kandidat.png" alt="">
-                                <h4>Saeful Apriana</h4>
-                                <p>Divisi Kominfo</p>
+                            <div class="paslon mt-5">
+                                <img class="img-fluid" src="./assets/images/kandidat.png" alt="Wakil Kandidat 1">
+                                
+                                <div class="paslon-description mt-5">
+                                    <h5>Saeful Apriana</h4>
+                                    <p>Divisi Kominfo</p>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="vote-information mt-5">
-                            <h1>89</h1>
-                            <p>Voting Sementara</p>    
+                        <div class="vote-information">
+                            <h1 class="temp-result-one">89</h1>
+                            <p class="vote-description">Voting Sementara</p>    
                         </div>
 
-                        <button type="button" class="btn btn-primary py-3 mt-5">Lihat Detail Kandidat </button>
+                        <a type="button" class="btn btn-detail text-white py-3 mt-5">Lihat Detail Kandidat </a>
                     </div>
                 </div>
 
-                <div class="col-sm">
-                    <div class="card text-center">
-                        <div class="d-flex justify-content-around">
-                            <div class="paslon">
-                                <img class="img-kandidat img-fluid" src="./assets/images/kandidat.png" alt="">
-                                <h4>Saeful Apriana</h4>
-                                <p>Divisi Kominfo</p>
+                <div class="col-sm mt-3">
+                    <div class="card card-paslon text-center">
+                        <div class="card-header card-paslon-header">
+                            <h1>2</h1>
+                        </div>
+                        <div class="d-flex justify-content-around px-3">
+                            <div class="paslon mt-5">
+                                <img class="img-kandidat img-fluid" src="./assets/images/kandidat.png" alt="Kandidat 1">
+                                
+                                <div class="paslon-description mt-5">
+                                    <h5>Saeful Apriana</h4>
+                                    <p>Divisi Kominfo</p>
+                                </div>
                             </div>
 
-                            <div class="paslon">
-                                <img class="img-kandidat img-fluid" src="./assets/images/kandidat.png" alt="">
-                                <h4>Saeful Apriana</h4>
-                                <p>Divisi Kominfo</p>
+                            <div class="paslon mt-5">
+                                <img class="img-kandidat img-fluid" src="./assets/images/kandidat.png" alt="Wakil Kandidat 1">
+                                
+                                <div class="paslon-description mt-5">
+                                    <h5>Saeful Apriana</h4>
+                                    <p>Divisi Kominfo</p>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="vote-information mt-5">
-                            <h1>89</h1>
-                            <p>Voting Sementara</p>    
+                        <div class="vote-information">
+                            <h1 class="temp-result-one">89</h1>
+                            <p class="vote-description">Voting Sementara</p>    
                         </div>
 
-                        <button type="button" class="btn btn-primary py-3 mt-5">Lihat Detail Kandidat </button>
+                        <a type="button" class="btn btn-detail text-white py-3 mt-5">Lihat Detail Kandidat </a>
                     </div>
                 </div>
+
+                
             </div>
 
-            <div class="vote-now mt-5">
-                <h4>Anda belum melakukan voting !!</h4>
-                <button type="button" class="btn-register text-white mt-3">Voting Now</button>
+            <div class="vote-now">
+                <a href="voting.html" class="btn-register text-white">Voting Now</a>
             </div>
         </div>
     </div>
@@ -152,6 +172,5 @@
             </div>
         </div>
     </footer>
-
 </body>
 </html>

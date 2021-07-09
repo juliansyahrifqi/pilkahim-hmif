@@ -42,7 +42,7 @@ nav {
     font-weight: 400;
 }
 .btn-register {
-    padding: 5px 42px;
+    padding: 20px 42px;
     background: #1C42CA;
     border-radius: 35px;
     border: none;
@@ -66,7 +66,32 @@ footer {
 .paslon img {
     width: 100%;
 }
-.kandidat-img {
-    width: 60%;
-    height: 50%;
+.paslon img {
+    width: 90%;
+    height: 45%;
+    border-radius: 50%;
+}
+.card-paslon, .card-kandidat, .card-voting {
+    background: #F2F2F2 !important;
+    box-shadow: 1px 3px 17px 1px rgba(82,82,82,0.69);
+    -webkit-box-shadow: 1px 3px 17px 1px rgba(82,82,82,0.69);
+    -moz-box-shadow: 1px 3px 17px 1px rgba(82,82,82,0.69);
+}
+.card-paslon-header {
+    background: #C4C4C4 !important;
+}
+.btn-detail {
+    background: #DADADA !important;
+    
+}
+.btn-detail:hover {
+    background: black !important;
+}
+.kandidat-img img {
+    width: 50%;
+    height: 50% !important;
+    border-radius: 50%;
+}
+.btn-voting {
+    background: #1C42CA !important;
 }
