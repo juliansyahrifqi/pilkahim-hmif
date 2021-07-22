@@ -120,8 +120,25 @@ footer {
     -moz-box-shadow: 7px 5px 36px 5px rgba(0,0,0,0.31);
 }
 
+.logo-instansi {
+    width: 16%;
+    height: 16%;
+}
+.circle {
+    background: #6C63FF;
+    border-radius: 5px;
+}
 @media screen and (max-width: 768px) {
     .login-form {
         right: 0;
+    }
+    footer {
+        text-align: center;
+    }
+    .social-media {
+        justify-content: center;
+    }
+    .instansi {
+        text-align: center !important;
     }
 }
