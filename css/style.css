@@ -95,3 +95,33 @@ footer {
 .btn-voting {
     background: #1C42CA !important;
 }
+
+.box {
+    background: #1C42CA;
+    border-radius: 20px;
+    box-shadow: 7px 5px 36px 5px rgba(0,0,0,0.31);
+    -webkit-box-shadow: 7px 5px 36px 5px rgba(0,0,0,0.31);
+    -moz-box-shadow: 7px 5px 36px 5px rgba(0,0,0,0.31);
+}
+.login-form {
+    position: absolute;
+    right: 3rem;
+    border-radius: 20px;
+        box-shadow: 7px 5px 36px 5px rgba(0,0,0,0.31);
+    -webkit-box-shadow: 7px 5px 36px 5px rgba(0,0,0,0.31);
+    -moz-box-shadow: 7px 5px 36px 5px rgba(0,0,0,0.31);
+}
+.btn-blue {
+    background-color: #1C42CA !important;
+}
+.btn-register {
+    box-shadow: 7px 5px 36px 5px rgba(0,0,0,0.31);
+    -webkit-box-shadow: 7px 5px 36px 5px rgba(0,0,0,0.31);
+    -moz-box-shadow: 7px 5px 36px 5px rgba(0,0,0,0.31);
+}
+
+@media screen and (max-width: 768px) {
+    .login-form {
+        right: 0;
+    }
+}
