@@ -1,183 +1,194 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,600;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,600;1,500&display=swap");
 
-.btn-login {
-    border: 2px solid #C6CB72;
-    padding: 5px 41px;
-    border-radius: 35px;
-    background: #1C42CA;
-    transition: all 0.3s;
-}
+/* Navbar */
 nav {
-    font-family: 'Kanit', sans-serif;
-    background: #1C42CA;
+  font-family: "Kanit", sans-serif;
+  background: #1c42ca;
 }
 .nav-link {
-    transition: all 0.2s !important;
+  transition: all 0.2s !important;
 }
 .nav-link:hover {
-    color: #EAEC8B !important;
-}
-.btn-login:hover {
-    background: #C6CB72;
+  color: #eaec8b !important;
 }
 .active a {
-    color : #EAEC8B !important;
-    font-weight: 600 !important; 
+  color: #eaec8b !important;
+  font-weight: 600 !important;
 }
+
+/* Home Page */
 .hero {
-    background:url("../assets/images/hero.svg");
-    height: 150vh;
-    font-family: 'Kanit', sans-serif;
+  background: url("../assets/images/hero.svg");
+  height: 150vh;
+  font-family: "Kanit", sans-serif;
 }
 .hero-title {
-    font-weight: 500;
+  font-weight: 500;
 }
 .hero-description {
-    font-weight: 400;
-}
-.btn-hero {
-    padding: 5px 20px;
-    border-radius: 35px;
-    transition: all 0.3s;
-}
-.btn-kandidat {
-    border: 1px solid #FFFFFF;
-    background: #1C42CA;
-    transition: all 0.3s;
-}
-.btn-kandidat:hover {
-    background: #C6CB72;
-    border-color: #C6CB72;
-}
-.btn-hero-voting {
-    border: 1px solid #C6CB72;
-    background: #1C42CA;
-}
-.btn-hero-voting:hover {
-    background: #C6CB72 !important;
+  font-weight: 400;
 }
 .register {
-    font-family: 'Kanit', sans-serif;
-    font-weight: 400;
-}
-.btn-register {
-    padding: 20px 42px;
-    background: #1C42CA;
-    border-radius: 35px;
-    border: none;
-    transition: all 0.3s;
-
-    box-shadow: 7px 5px 36px 5px rgba(0,0,0,0.31);
-    -webkit-box-shadow: 7px 5px 36px 5px rgba(0,0,0,0.31);
-    -moz-box-shadow: 7px 5px 36px 5px rgba(0,0,0,0.31);
-}
-.round {
-    background: #6C63FF;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
 }
 .howto-vote {
-    font-family: 'Kanit', sans-serif;
-    font-weight: 400;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
 }
+
+/* Kandidat Page */
+.kandidat-img img {
+  width: 100%;
+  height: 50%;
+  border-radius: 50%;
+}
+
+/* Footer */
 footer {
-    background:url("../assets/images/footer.svg") no-repeat top;
-    height: 100%;
-    font-family: 'Kanit', sans-serif;
-    font-weight: 400;
+  background: url("../assets/images/footer.svg") no-repeat top;
+  height: 100%;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
 }
 .footer-content {
-    margin-top: 18rem;
+  margin-top: 18rem;
 }
-.paslon img {
-    width: 100%;
-}
-.paslon img {
-    width: 100%;
-    height: 50%;
-    border-radius: 50%;
-}
-.card-paslon, .card-kandidat, .card-voting {
-    background: #F2F2F2 !important;
-    box-shadow: 1px 3px 17px 1px rgba(82,82,82,0.69);
-    -webkit-box-shadow: 1px 3px 17px 1px rgba(82,82,82,0.69);
-    -moz-box-shadow: 1px 3px 17px 1px rgba(82,82,82,0.69);
-}
-.card-paslon-header {
-    background: #C4C4C4 !important;
-}
-.btn-detail {
-    background: #DADADA !important;
-    
-}
-.btn-detail:hover {
-    background: #1C42CA !important;
-}
-.kandidat-img img {
-    width: 100%;
-    height: 50%;
-    border-radius: 50%;
-}
-.btn-voting {
-    background: #1C42CA !important;
-    transition: all 0.3s;
-}
-.btn-voting:hover {
-    background: #062181 !important;
-}
-
-.box {
-    background: #1C42CA;
-    border-radius: 20px;
-    box-shadow: 7px 5px 36px 5px rgba(0,0,0,0.31);
-    -webkit-box-shadow: 7px 5px 36px 5px rgba(0,0,0,0.31);
-    -moz-box-shadow: 7px 5px 36px 5px rgba(0,0,0,0.31);
-}
-.login-form, .register-form {
-    position: absolute;
-    right: 3rem;
-    border-radius: 20px;
-        box-shadow: 7px 5px 36px 5px rgba(0,0,0,0.31);
-    -webkit-box-shadow: 7px 5px 36px 5px rgba(0,0,0,0.31);
-    -moz-box-shadow: 7px 5px 36px 5px rgba(0,0,0,0.31);
-}
-.btn-blue {
-    background-color: #1C42CA !important;
-}
-.btn-register:hover {
-    background: #062181;
-}
-
 .logo-instansi {
-    width: 16%;
-    height: 16%;
+  width: 16%;
+  height: 16%;
 }
 .circle {
-    background: #6C63FF;
-    border-radius: 5px;
-    transition: all 0.3s;
+  background: #6c63ff;
+  border-radius: 5px;
+  transition: all 0.3s;
 }
 .circle:hover {
-    background: #19129c;
+  background: #19129c;
 }
+
+/* Login and Register */
+.login-form,
+.register-form {
+  position: absolute;
+  right: 3rem;
+  border-radius: 20px;
+  box-shadow: 7px 5px 36px 5px rgba(0, 0, 0, 0.31);
+  -webkit-box-shadow: 7px 5px 36px 5px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 7px 5px 36px 5px rgba(0, 0, 0, 0.31);
+}
+.box {
+  background: #1c42ca;
+  border-radius: 20px;
+  box-shadow: 7px 5px 36px 5px rgba(0, 0, 0, 0.31);
+  -webkit-box-shadow: 7px 5px 36px 5px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 7px 5px 36px 5px rgba(0, 0, 0, 0.31);
+}
+
+/* Button */
+.btn-blue {
+  background-color: #1c42ca !important;
+}
+.btn-login {
+  border: 2px solid #c6cb72;
+  padding: 5px 41px;
+  border-radius: 35px;
+  background: #1c42ca;
+  transition: all 0.3s;
+}
+.btn-login:hover {
+  background: #c6cb72;
+}
+.btn-hero {
+  padding: 5px 20px;
+  border-radius: 35px;
+  transition: all 0.3s;
+}
+.btn-kandidat {
+  border: 1px solid #ffffff;
+  background: #1c42ca;
+  transition: all 0.3s;
+}
+.btn-kandidat:hover {
+  background: #c6cb72;
+  border-color: #c6cb72;
+}
+.btn-hero-voting {
+  border: 1px solid #c6cb72;
+  background: #1c42ca;
+}
+.btn-hero-voting:hover {
+  background: #c6cb72 !important;
+}
+.btn-register {
+  padding: 20px 42px;
+  background: #1c42ca;
+  border-radius: 35px;
+  border: none;
+  transition: all 0.3s;
+
+  box-shadow: 7px 5px 36px 5px rgba(0, 0, 0, 0.31);
+  -webkit-box-shadow: 7px 5px 36px 5px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 7px 5px 36px 5px rgba(0, 0, 0, 0.31);
+}
+.btn-register:hover {
+  background: #062181;
+}
+.btn-detail {
+  background: #dadada !important;
+}
+.btn-detail:hover {
+  background: #1c42ca !important;
+}
+.btn-voting {
+  background: #1c42ca !important;
+  transition: all 0.3s;
+}
+.btn-voting:hover {
+  background: #062181 !important;
+}
+
+.paslon img {
+  width: 100%;
+}
+.paslon img {
+  width: 100%;
+  height: 50%;
+  border-radius: 50%;
+}
+.card-paslon,
+.card-kandidat,
+.card-voting {
+  background: #f2f2f2 !important;
+  box-shadow: 1px 3px 17px 1px rgba(82, 82, 82, 0.69);
+  -webkit-box-shadow: 1px 3px 17px 1px rgba(82, 82, 82, 0.69);
+  -moz-box-shadow: 1px 3px 17px 1px rgba(82, 82, 82, 0.69);
+}
+.card-paslon-header {
+  background: #c4c4c4 !important;
+}
+
 @media screen and (max-width: 768px) {
-    .hero {
-        background: #1C42CA;
-        height: 100%;
-    }
-    .login-form, .register-form {
-        right: 0;
-    }
-    footer {
-        background: #1C42CA;
-        text-align: center;
-    }
-    .footer-content {
-        margin-top: 3rem;
-    }
-    .social-media {
-        justify-content: center;
-    }
-    .instansi {
-        margin-top: 2rem;
-        text-align: center !important;
-    }
+  .hero {
+    background: #1c42ca;
+    height: 100%;
+  }
+  .login-form,
+  .register-form {
+    right: 0;
+  }
+  footer {
+    background: #1c42ca;
+    text-align: center;
+  }
+  .footer-content {
+    margin-top: 3rem;
+  }
+  .social-media {
+    justify-content: center;
+  }
+  .instansi {
+    margin-top: 2rem;
+    text-align: center !important;
+  }
 }

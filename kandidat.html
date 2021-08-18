@@ -1,290 +1,380 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HMIF Voting - Detail Calon Kandidat</title>    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HMIF Voting - Detail Calon Kandidat</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+
     <!-- My CSS -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Animate on Scroll CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light py-4">
-        <div class="container-fluid">
-            <a class="navbar-brand text-white" href="#">HMIF Voting</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item mr-4">
-                  <a class="nav-link text-white" href="index.html">Home</a>
-                </li>
-                <li class="nav-item mr-4">
-                  <a class="nav-link text-white" href="quick-count.html">Quick Count</a>
-                </li>
-                <li class="nav-item active mr-4">
-                    <a class="nav-link text-white" href="kandidat.html">Kandidat</a>
-                </li>
-                <li class="nav-item mr-4">
-                    <a class="nav-link text-white" href="voting.html">Voting</a>
-                </li>
-                <a href="login.html">
-                    <button class="btn-login text-white">
-                        Login
-                    </button>
-                </a>
-              </ul>
-            </div>
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">HMIF Voting</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mr-4">
+              <a class="nav-link text-white" href="index.html">Home</a>
+            </li>
+            <li class="nav-item mr-4">
+              <a class="nav-link text-white" href="quick-count.html"
+                >Quick Count</a
+              >
+            </li>
+            <li class="nav-item active mr-4">
+              <a class="nav-link text-white" href="kandidat.html">Kandidat</a>
+            </li>
+            <li class="nav-item mr-4">
+              <a class="nav-link text-white" href="voting.html">Voting</a>
+            </li>
+            <a href="login.html">
+              <button class="btn-login text-white">Login</button>
+            </a>
+          </ul>
         </div>
-      </nav>
-      <!-- End of navbar -->
+      </div>
+    </nav>
+    <!-- End of navbar -->
 
     <div class="quick-count">
-        <div class="container mt-5">
-            <div class="header text-center">
-                <h1>Detail Calon Kandidat</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id sed id amet senectus.</p>
-            </div>
-            <h4 class="mt-5 text-center">
-                Detail Calon Kandidat Nomor urut 1
-            </h4>
-            <div class="row mt-5">
-                <div class="col-sm-6 mt-4">
-                    <div class="card card-kandidat">
-                        <div class="card-body">
-                            <div class="d-flex flex-wrap align-items-center">
-                                <div class="kandidat-img text-center">
-                                    <img src="./assets/images/kandidat.png" class="img-fluid" alt="">
-                                </div>
-    
-                                <div class="visi-misi text-secondary mt-3">
-                                    <p>Visi: </p>
-                                    <p class="mt-5">Misi: </p>
-                                </div>
-                            </div>
-    
-                            <div class="kandidat-information mt-5">
-                                <h5>Calon Ketua</h5> 
-                                <div class="kandidat-description text-secondary mt-4">
-                                    <p>Nomor Kandidat: 1</p>  
-                                    <p>Nama: </p>   
-                                    <p>Divisi: </p>
-                                    <p>Jabatan Divisi: </p>
-                                    <p>Angkatan: </p>
-                                    <p>Tanggal Lahir: </p>
-                                    <p>Alamat: </p>
-                                    <p>Agama: </p>
-                                    <p>Pengalaman Organisasi:</p>
-                                    <ul>
-                                        <li>Test</li>
-                                        <li>Test</li>
-                                    </ul>
-                                    <p>Pelatihan: </p>
-                                    <ul>
-                                        <li>Test</li>
-                                        <li>Test</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 mt-4">
-                    <div class="card card-kandidat">
-                        <div class="card-body">
-                            <div class="d-flex flex-wrap align-items-center">
-                                <div class="kandidat-img text-center">
-                                    <img src="./assets/images/kandidat.png" class="img-fluid" alt="">
-                                </div>
-    
-                                <div class="visi-misi text-secondary">
-                                    <p>Visi: </p>
-                                    <p class="mt-5">Misi: </p>
-                                </div>
-                            </div>
-    
-                            <div class="kandidat-information mt-5">
-                                <h5>Calon Wakil Ketua</h5> 
-                                <div class="kandidat-description text-secondary mt-4">
-                                    <p>Nomor Kandidat: 1</p>  
-                                    <p>Nama: </p>   
-                                    <p>Divisi: </p>
-                                    <p>Jabatan Divisi: </p>
-                                    <p>Angkatan: </p>
-                                    <p>Tanggal Lahir: </p>
-                                    <p>Alamat: </p>
-                                    <p>Agama: </p>
-                                    <p>Pengalaman Organisasi:</p>
-                                    <ul>
-                                        <li>Test</li>
-                                        <li>Test</li>
-                                    </ul>
-                                    <p>Pelatihan: </p>
-                                    <ul>
-                                        <li>Test</li>
-                                        <li>Test</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <h4 class="text-center mt-5">Detail Calon Kandidat Nomor urut 2</h1>
-        
-            <div class="row mt-5">
-                <div class="col-sm-6 mt-4">
-                    <div class="card card-kandidat">
-                        <div class="card-body">
-                            <div class="d-flex flex-wrap align-items-center">
-                                <div class="kandidat-img text-center">
-                                    <img src="./assets/images/kandidat.png" class="img-fluid" alt="">
-                                </div>
-    
-                                <div class="visi-misi text-secondary">
-                                    <p>Visi: </p>
-                                    <p class="mt-5">Misi: </p>
-                                </div>
-                            </div>
-    
-                            <div class="kandidat-information mt-5">
-                                <h5>Calon Wakil Ketua</h5> 
-                                <div class="kandidat-description text-secondary mt-4">
-                                    <p>Nomor Kandidat: 1</p>  
-                                    <p>Nama: </p>   
-                                    <p>Divisi: </p>
-                                    <p>Jabatan Divisi: </p>
-                                    <p>Angkatan: </p>
-                                    <p>Tanggal Lahir: </p>
-                                    <p>Alamat: </p>
-                                    <p>Agama: </p>
-                                    <p>Pengalaman Organisasi:</p>
-                                    <ul>
-                                        <li>Test</li>
-                                        <li>Test</li>
-                                    </ul>
-                                    <p>Pelatihan: </p>
-                                    <ul>
-                                        <li>Test</li>
-                                        <li>Test</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 mt-4">
-                    <div class="card card-kandidat">
-                        <div class="card-body">
-                            <div class="d-flex flex-wrap align-items-center">
-                                <div class="kandidat-img text-center">
-                                    <img src="./assets/images/kandidat.png" class="img-fluid" alt="">
-                                </div>
-    
-                                <div class="visi-misi text-secondary">
-                                    <p>Visi: </p>
-                                    <p class="mt-5">Misi: </p>
-                                </div>
-                            </div>
-    
-                            <div class="kandidat-information mt-5">
-                                <h5>Calon Wakil Ketua</h5> 
-                                <div class="kandidat-description text-secondary mt-4">
-                                    <p>Nomor Kandidat: 1</p>  
-                                    <p>Nama: </p>   
-                                    <p>Divisi: </p>
-                                    <p>Jabatan Divisi: </p>
-                                    <p>Angkatan: </p>
-                                    <p>Tanggal Lahir: </p>
-                                    <p>Alamat: </p>
-                                    <p>Agama: </p>
-                                    <p>Pengalaman Organisasi:</p>
-                                    <ul>
-                                        <li>Test</li>
-                                        <li>Test</li>
-                                    </ul>
-                                    <p>Pelatihan: </p>
-                                    <ul>
-                                        <li>Test</li>
-                                        <li>Test</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="vote-now text-center mt-5">
-                <h3>Anda belum melakukan voting!!</h1>
-                <a href="voting.html" type="button" class="btn-register text-white mt-4">Voting Now</a>
-            </div>
+      <div class="container mt-5">
+        <div class="header text-center">
+          <h1>Detail Calon Kandidat</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id sed id
+            amet senectus.
+          </p>
         </div>
+        <h4 class="mt-5 text-center">Detail Calon Kandidat Nomor urut 1</h4>
+        <div class="row mt-5">
+          <div
+            class="col-sm-6 mt-4"
+            data-aos="fade-down"
+            data-aos-delay="100"
+            data-aos-duration="900"
+            data-aos-easing="ease-in-out"
+          >
+            <div class="card card-kandidat">
+              <div class="card-body">
+                <div class="d-flex flex-wrap align-items-center">
+                  <div class="kandidat-img text-center">
+                    <img
+                      src="./assets/images/kandidat.png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+
+                  <div class="visi-misi text-secondary mt-3">
+                    <p>Visi:</p>
+                    <p class="mt-5">Misi:</p>
+                  </div>
+                </div>
+
+                <div class="kandidat-information mt-5">
+                  <h5>Calon Ketua</h5>
+                  <div class="kandidat-description text-secondary mt-4">
+                    <p>Nomor Kandidat: 1</p>
+                    <p>Nama:</p>
+                    <p>Divisi:</p>
+                    <p>Jabatan Divisi:</p>
+                    <p>Angkatan:</p>
+                    <p>Tanggal Lahir:</p>
+                    <p>Alamat:</p>
+                    <p>Agama:</p>
+                    <p>Pengalaman Organisasi:</p>
+                    <ul>
+                      <li>Test</li>
+                      <li>Test</li>
+                    </ul>
+                    <p>Pelatihan:</p>
+                    <ul>
+                      <li>Test</li>
+                      <li>Test</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-sm-6 mt-4"
+            data-aos="fade-down"
+            data-aos-delay="200"
+            data-aos-duration="900"
+            data-aos-easing="ease-in-out"
+          >
+            <div class="card card-kandidat">
+              <div class="card-body">
+                <div class="d-flex flex-wrap align-items-center">
+                  <div class="kandidat-img text-center">
+                    <img
+                      src="./assets/images/kandidat.png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+
+                  <div class="visi-misi text-secondary">
+                    <p>Visi:</p>
+                    <p class="mt-5">Misi:</p>
+                  </div>
+                </div>
+
+                <div class="kandidat-information mt-5">
+                  <h5>Calon Wakil Ketua</h5>
+                  <div class="kandidat-description text-secondary mt-4">
+                    <p>Nomor Kandidat: 1</p>
+                    <p>Nama:</p>
+                    <p>Divisi:</p>
+                    <p>Jabatan Divisi:</p>
+                    <p>Angkatan:</p>
+                    <p>Tanggal Lahir:</p>
+                    <p>Alamat:</p>
+                    <p>Agama:</p>
+                    <p>Pengalaman Organisasi:</p>
+                    <ul>
+                      <li>Test</li>
+                      <li>Test</li>
+                    </ul>
+                    <p>Pelatihan:</p>
+                    <ul>
+                      <li>Test</li>
+                      <li>Test</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h4 class="text-center mt-5">Detail Calon Kandidat Nomor urut 2</h4>
+
+        <div class="row mt-5">
+          <div
+            class="col-sm-6 mt-4"
+            data-aos="fade-down"
+            data-aos-delay="100"
+            data-aos-duration="900"
+            data-aos-easing="ease-in-out"
+          >
+            <div class="card card-kandidat">
+              <div class="card-body">
+                <div class="d-flex flex-wrap align-items-center">
+                  <div class="kandidat-img text-center">
+                    <img
+                      src="./assets/images/kandidat.png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+
+                  <div class="visi-misi text-secondary">
+                    <p>Visi:</p>
+                    <p class="mt-5">Misi:</p>
+                  </div>
+                </div>
+
+                <div class="kandidat-information mt-5">
+                  <h5>Calon Wakil Ketua</h5>
+                  <div class="kandidat-description text-secondary mt-4">
+                    <p>Nomor Kandidat: 1</p>
+                    <p>Nama:</p>
+                    <p>Divisi:</p>
+                    <p>Jabatan Divisi:</p>
+                    <p>Angkatan:</p>
+                    <p>Tanggal Lahir:</p>
+                    <p>Alamat:</p>
+                    <p>Agama:</p>
+                    <p>Pengalaman Organisasi:</p>
+                    <ul>
+                      <li>Test</li>
+                      <li>Test</li>
+                    </ul>
+                    <p>Pelatihan:</p>
+                    <ul>
+                      <li>Test</li>
+                      <li>Test</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-sm-6 mt-4"
+            data-aos="fade-down"
+            data-aos-delay="200"
+            data-aos-duration="900"
+            data-aos-easing="ease-in-out"
+          >
+            <div class="card card-kandidat">
+              <div class="card-body">
+                <div class="d-flex flex-wrap align-items-center">
+                  <div class="kandidat-img text-center">
+                    <img
+                      src="./assets/images/kandidat.png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+
+                  <div class="visi-misi text-secondary">
+                    <p>Visi:</p>
+                    <p class="mt-5">Misi:</p>
+                  </div>
+                </div>
+
+                <div class="kandidat-information mt-5">
+                  <h5>Calon Wakil Ketua</h5>
+                  <div class="kandidat-description text-secondary mt-4">
+                    <p>Nomor Kandidat: 1</p>
+                    <p>Nama:</p>
+                    <p>Divisi:</p>
+                    <p>Jabatan Divisi:</p>
+                    <p>Angkatan:</p>
+                    <p>Tanggal Lahir:</p>
+                    <p>Alamat:</p>
+                    <p>Agama:</p>
+                    <p>Pengalaman Organisasi:</p>
+                    <ul>
+                      <li>Test</li>
+                      <li>Test</li>
+                    </ul>
+                    <p>Pelatihan:</p>
+                    <ul>
+                      <li>Test</li>
+                      <li>Test</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="vote-now text-center mt-5"
+          data-aos="zoom-in"
+          data-aos-delay="100"
+          data-aos-duration="900"
+          data-aos-easing="ease-in-out"
+        >
+          <h3>Anda belum melakukan voting!!</h3>
+          <a
+            href="voting.html"
+            type="button"
+            class="btn-register text-white mt-4"
+            >Voting Now</a
+          >
+        </div>
+      </div>
     </div>
-    
 
     <footer>
-        <div class="container mt-5 py-5">
-            <div class="row footer-content align-items-center">
-                <div class="col-sm">
-                    <h1 class="text-white">HMIF Voting.</h1>
+      <div class="container mt-5 py-5">
+        <div class="row footer-content align-items-center">
+          <div class="col-sm">
+            <h1 class="text-white">HMIF Voting.</h1>
 
-                      <p class="text-white">
-                          <span class="text-weight-bold">HMIF UNIKOM.</span>
-                          All Rights Reserved
-                      </p>
-                      <div class="footer-link">
-                          <a href="index.html" class="text-white">Home | </a>
-                          <a href="quick-count.html" class="text-white">Quick Count | </a>
-                          <a href="kandidat.html" class="text-white">Kandidat | </a>
-                          <a href="voting.html" class="text-white">Voting </a>
-                      </div>
-
-                      <div class="social-media d-flex text-white">
-                          <a href="#">
-                              <div class="circle m-2 p-2">
-                                  <img src="./assets/images/email.svg" alt="Email">
-                              </div>
-                          </a>
-
-                          <a href="https://www.instagram.com/hmifunikom/" target="_blank">
-                              <div class="circle m-2 p-2">
-                                  <img src="./assets/images/instagram.svg" alt="Instagram">
-                              </div>
-                          </a>
-
-                          <a href="https://www.youtube.com/channel/UC4rapuJ7EDm0lde2q6No0Hg" target="_blank">
-                              <div class="circle m-2 p-2">
-                                  <img src="./assets/images/youtube.svg" alt="Youtube">
-                              </div> 
-                          </a>
-
-                          <a href="https://www.facebook.com/hmifunikom" target="_blank">
-                              <div class="circle m-2 p-2">
-                                  <img src="./assets/images/facebook.svg" alt="Facebook">
-                              </div>
-                          </a>
-                      </div>
-                </div>
-
-                <div class="instansi col-sm text-right">
-                  <img src="./assets/images/unikom.png" class="img-fluid logo-instansi" alt="Unikom">
-                  <img src="./assets/images/hmif.png" class="img-fluid ml-2 logo-instansi" alt="HMIF">
-                </div>
+            <p class="text-white">
+              <span class="text-weight-bold">HMIF UNIKOM.</span>
+              All Rights Reserved
+            </p>
+            <div class="footer-link">
+              <a href="index.html" class="text-white">Home | </a>
+              <a href="quick-count.html" class="text-white">Quick Count | </a>
+              <a href="kandidat.html" class="text-white">Kandidat | </a>
+              <a href="voting.html" class="text-white">Voting </a>
             </div>
+
+            <div class="social-media d-flex text-white">
+              <a href="#">
+                <div class="circle m-2 p-2">
+                  <img src="./assets/images/email.svg" alt="Email" />
+                </div>
+              </a>
+
+              <a href="https://www.instagram.com/hmifunikom/" target="_blank">
+                <div class="circle m-2 p-2">
+                  <img src="./assets/images/instagram.svg" alt="Instagram" />
+                </div>
+              </a>
+
+              <a
+                href="https://www.youtube.com/channel/UC4rapuJ7EDm0lde2q6No0Hg"
+                target="_blank"
+              >
+                <div class="circle m-2 p-2">
+                  <img src="./assets/images/youtube.svg" alt="Youtube" />
+                </div>
+              </a>
+
+              <a href="https://www.facebook.com/hmifunikom" target="_blank">
+                <div class="circle m-2 p-2">
+                  <img src="./assets/images/facebook.svg" alt="Facebook" />
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="instansi col-sm text-right">
+            <img
+              src="./assets/images/unikom.png"
+              class="img-fluid logo-instansi"
+              alt="Unikom"
+            />
+            <img
+              src="./assets/images/hmif.png"
+              class="img-fluid ml-2 logo-instansi"
+              alt="HMIF"
+            />
+          </div>
         </div>
+      </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./js/aos-settings.js"></script>
+  </body>
 </html>
